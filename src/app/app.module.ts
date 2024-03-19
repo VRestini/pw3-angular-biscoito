@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ImagemComponent } from './imagem/imagem.component';
 import { FrasesComponent } from './frases/frases.component';
+import { BotaoComponent } from './botao/botao.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImagemComponent,
-    FrasesComponent
+    FrasesComponent,
+    BotaoComponent
   ],
   imports: [
     BrowserModule,
