@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ImagemComponent } from './imagem/imagem.component';
 import { FrasesComponent } from './frases/frases.component';
 import { BotaoComponent } from './botao/botao.component';
+import { BiscoitoComponent } from './biscoito/biscoito.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImagemComponent,
     FrasesComponent,
-    BotaoComponent
+    BotaoComponent,
+    BiscoitoComponent
   ],
   imports: [
     BrowserModule,

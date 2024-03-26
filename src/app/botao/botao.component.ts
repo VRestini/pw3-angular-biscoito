@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-botao',
@@ -6,17 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./botao.component.css']
 })
 export class BotaoComponent {
+  @Input() inteiroa: boolean = true;
+  @Input() inteirob: boolean = true;
   ligad: boolean = true;
   deslig: boolean = false;
 
-  clique(){
-    if (this.ligad == true ){
-      this.ligad = false;
-      this.deslig = true
-    }
-    else{
-      this.ligad = true;
-      this.deslig = false;
-    }
-  }
+
 }

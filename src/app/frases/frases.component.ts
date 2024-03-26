@@ -19,6 +19,14 @@ export class FrasesComponent {
   lig: boolean = false;
   min: number = 0;
   max: number = 9;
-  valor = Math.floor(Math.random() * (this.max - this.min + 1)) +this.min;
 
+  getValor(){
+    let valor = Math.floor(Math.random() * (this.max - this.min + 1)) +this.min;
+    return this.arrayFrases[valor];
+  }
+
+
+
+  /* valor = Math.floor(Math.random() * arrayFrases.length);
+  serve para randomizar as frases de acordo com o tamanho do array */
 }
